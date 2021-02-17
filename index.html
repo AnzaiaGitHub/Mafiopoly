@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MAFIOPOLY</title>
+</head>
+<body>
+    <div class="allscreen">
+        <header>
+            <h1>Watching TV... Stay hold</h1>
+        </header>
+        <main>
+            <div class="tablero">
+                <div class="player" id="p1"></div>
+                <div class="player" id="p2"></div>
+                <div class="player" id="p3"></div>
+                <div class="player" id="p4"></div>
+            </div>
+            <div class="interfaz">
+                <h3>Player Selected: <span id="selected">1</span></h3>
+                <div class="selector">
+                    <div id="p1sel" onclick="selectplayer(1)"><b>1</b></div>
+                    <div id="p2sel" onclick="selectplayer(2)"><b>2</b></div>
+                    <div id="p3sel" onclick="selectplayer(3)"><b>3</b></div>
+                    <div id="p4sel" onclick="selectplayer(4)"><b>4</b></div>
+                </div>
+                <div class="saldos">
+                    <div>
+                        <p>Saldo:</p>
+                        <input type="text" value="$0.00">
+                    </div>
+                    <div>
+                        <p>Saldo:</p>
+                        <input type="text" value="$0.00">
+                    </div>
+                    <div>
+                        <p>Saldo:</p>
+                        <input type="text" value="$0.00">
+                    </div>
+                    <div>
+                        <p>Saldo:</p>
+                        <input type="text" value="$0.00">
+                    </div>
+                </div>
+                <div class="dados">
+                    <div class="imgdado">
+                        <img src="img/dado1.png" alt="imagen del dado" id="dado">
+                    </div>
+                    <input type="text" id="resultado" value="1">
+                    <div id="lanzar" onclick="lanzardado()">
+                        <p>Lanzar Dado</p>
+                    </div>
+                    <div id="mover" onclick="mover()">
+                        <p>Mover</p>
+                    </div>
+                </div>
+            </div>
+            <div class="pedidos">
+                <div onclick="pedido()">Obtener Pedido</div>
+            </div>
+        </main>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

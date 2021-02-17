@@ -1,0 +1,15 @@
+posiciones con translate x,y según P1 separados por 0px y son de 20px de diametro
+45px por posición normal (entre esquinas)
+60px por salto a esquina (de normal a esquina)
+
+(50,25) (110) (155) (200) (245) (290) (335) (380) (425) (470) (530,25)
+(85)
+(130)
+(175)
+(220)
+(265)
+(310)
+(355)
+(400)
+(445)
+(50,505)
