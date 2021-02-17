@@ -125,7 +125,7 @@ function movervisual(p, pos) {
 }
 
 function pedido(){
-    let number = parseInt(Math.random()*24);
+    let number = parseInt(Math.random()*22);
     number++;
     alert("Tu pedido es el N°"+number);
 }
